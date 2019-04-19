@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 public class CheckUtil {
 
+
     /**
      * 判断对象是否为空
      */
