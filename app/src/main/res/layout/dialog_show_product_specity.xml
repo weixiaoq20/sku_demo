@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/show_product_specity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:weightSum="100">>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:background="@color/transparent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="75"
+        android:background="@drawable/show_dialog_gui_shape"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/view_1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px260dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px260dp"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal">
+
+                <sports.demo.com.myapplication.widget.EaseImageView
+                    android:id="@+id/show_product_specity_img"
+                    android:layout_width="@dimen/px200dp"
+                    android:layout_height="@dimen/px200dp"
+                    android:layout_marginLeft="@dimen/px24dp"
+                    android:layout_marginTop="@dimen/px36dp"
+                    app:ease_radius="@dimen/px10dp"
+                    app:ease_shape_type="rectangle" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/px20dp"
+                    android:layout_marginRight="@dimen/px20dp"
+                    android:layout_marginBottom="@dimen/px26dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/dialog_show_product_specity_close"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:paddingLeft="@dimen/px30dp"
+                        android:paddingTop="@dimen/px20dp"
+                        android:paddingRight="@dimen/px30dp"
+                        android:paddingBottom="@dimen/px20dp"
+                        android:src="@mipmap/ic_fc_del" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/px4dp"
+                        android:layout_weight="1"
+                        android:gravity="bottom"
+                        android:orientation="horizontal">
+
+                        <sports.demo.com.myapplication.widget.NumTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/px28dp"
+                            android:text="¥"
+                            android:textColor="@color/new_status_bar"
+                            android:textSize="@dimen/px36dp" />
+
+                        <sports.demo.com.myapplication.widget.NumTextView
+                            android:id="@+id/show_product_specity_price_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/px10dp"
+                            android:text="0.00"
+                            android:textColor="@color/new_status_bar"
+                            android:textSize="@dimen/px48dp" />
+
+                        <sports.demo.com.myapplication.widget.NumTextView
+                            android:id="@+id/tv_shop_cost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/px14dp"
+                            android:textColor="@color/auxiliary_instructions_66"
+                            android:textSize="@dimen/px26dp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/px0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/tv_sku"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/px28dp"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text="选择"
+                            android:textColor="@color/auxiliary_instructions_99"
+                            android:textSize="@dimen/px28dp" />
+
+                        <TextView
+                            android:id="@+id/show_product_sku"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/px10dp"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:textColor="@color/title_text_33_content"
+                            android:textSize="@dimen/px28dp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/px1dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/px24dp"
+                android:layout_marginRight="@dimen/px24dp"
+                android:background="@color/all_text_eee_color" />
+
+        </RelativeLayout>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/view_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view_1"
+            android:layout_marginBottom="@dimen/px88dp"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/show_product_specity_recycle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false" />
+
+                <RelativeLayout
+                    android:id="@+id/dialog_show_product_specity_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px20dp"
+                    android:layout_marginBottom="@dimen/px20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/px24dp"
+                        android:text="购买数量"
+                        android:textColor="@color/title_text_33_content"
+                        android:textSize="@dimen/px28dp" />
+
+
+                    <include
+                        layout="@layout/widget_cart_quanlity_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="@dimen/px10dp"
+                        android:layout_marginRight="@dimen/px20dp" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+
+
+
+        <TextView
+            android:id="@+id/show_product_specity_buy_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px88dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/square_button_theme_bg"
+            android:gravity="center"
+            android:text="确定"
+            android:textColor="@color/white"
+            android:textSize="@dimen/px32dp" />
+
+
+        <LinearLayout
+            android:id="@+id/view_2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px88dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:id="@+id/view_add_gwc"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/all_text_eee_color">
+
+                <TextView
+                    android:id="@+id/jia_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="加入购物车"
+                    android:textColor="@color/new_status_bar"
+                    android:textSize="@dimen/px32dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/view_add_shop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/square_button_theme_bg">
+
+                <TextView
+                    android:id="@+id/shop_detalis_type_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="立即购买"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/px32dp" />
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

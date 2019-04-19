@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loading_pixel">120dip</dimen>
+    <dimen name="notification_height">12dip</dimen>
+    <dimen name="page_title">56dip</dimen>
+    <dimen name="page_title_height">48dip</dimen>
+    <dimen name="title_height">@dimen/px88dp</dimen>
+    <dimen name="title_height_">@dimen/px88dp</dimen>
+    <dimen name="status_bar_height">0dp</dimen>
+    <dimen name="status_bar_height_">0dp</dimen>
+    <!--字体大小-->
+    <dimen name="text_size_9">9dp</dimen>
+    <dimen name="text_size_10">10dp</dimen>
+    <dimen name="text_size_11">11dp</dimen>
+    <dimen name="text_size_12">12dp</dimen>
+    <dimen name="text_size_13">13dp</dimen>
+    <dimen name="text_size_14">14dp</dimen>
+    <dimen name="text_size_15">15dp</dimen>
+    <dimen name="text_size_16">16dp</dimen>
+    <dimen name="text_size_17">17dp</dimen>
+    <dimen name="text_size_18">18dp</dimen>
+    <dimen name="text_size_20">20dp</dimen>
+    <dimen name="text_size_24">24dp</dimen>
+    <dimen name="text_size_30">30dp</dimen>
+    <dimen name="text_size_40">40dp</dimen>
+
+    <dimen name="max_width">230dip</dimen>
+    <dimen name="max_height">180dip</dimen>
+    <dimen name="padding_tool_icon">12dip</dimen>
+    <integer name="HomePageHeaderColumn">5</integer>
+
+</resources>

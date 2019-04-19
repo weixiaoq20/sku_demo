@@ -1,0 +1,178 @@
+{
+	"attr": [
+		[
+			{
+				"attribute_id": "63",
+				"attribute_name": "颜色",
+				"attribute_value": "米色",
+				"goods_id": "26873",
+				"id": "191121"
+			}
+		],
+		[
+			{
+				"attribute_id": "9623",
+				"attribute_name": "①",
+				"attribute_value": "衣 红色",
+				"goods_id": "26873",
+				"id": "191126"
+			},
+			{
+				"attribute_id": "9624",
+				"attribute_name": "①",
+				"attribute_value": "衣 粉色",
+				"goods_id": "26873",
+				"id": "191127"
+			},
+			{
+				"attribute_id": "9813",
+				"attribute_name": "①",
+				"attribute_value": "繁花-灰",
+				"goods_id": "26873",
+				"id": "191131"
+			},
+			{
+				"attribute_id": "9814",
+				"attribute_name": "①",
+				"attribute_value": "小雏菊",
+				"goods_id": "26873",
+				"id": "191132"
+			}
+		],
+		[
+			{
+				"attribute_id": "8775",
+				"attribute_name": "尺 码",
+				"attribute_value": "XS",
+				"goods_id": "26873",
+				"id": "191122"
+			},
+			{
+				"attribute_id": "8776",
+				"attribute_name": "尺 码",
+				"attribute_value": "S",
+				"goods_id": "26873",
+				"id": "191123"
+			},
+			{
+				"attribute_id": "8778",
+				"attribute_name": "尺 码",
+				"attribute_value": "L",
+				"goods_id": "26873",
+				"id": "191124"
+			},
+			{
+				"attribute_id": "8799",
+				"attribute_name": "尺 码",
+				"attribute_value": "8",
+				"goods_id": "26873",
+				"id": "191125"
+			},
+			{
+				"attribute_id": "15041",
+				"attribute_name": "尺 码",
+				"attribute_value": "儿童 32",
+				"goods_id": "26873",
+				"id": "191137"
+			}
+		],
+		[
+			{
+				"attribute_id": "9627",
+				"attribute_name": "②",
+				"attribute_value": "衣 S",
+				"goods_id": "26873",
+				"id": "191128"
+			},
+			{
+				"attribute_id": "9820",
+				"attribute_name": "②",
+				"attribute_value": "2*2.3米",
+				"goods_id": "26873",
+				"id": "191133"
+			},
+			{
+				"attribute_id": "11912",
+				"attribute_name": "②",
+				"attribute_value": "38C",
+				"goods_id": "26873",
+				"id": "191135"
+			},
+			{
+				"attribute_id": "11913",
+				"attribute_name": "②",
+				"attribute_value": "40C",
+				"goods_id": "26873",
+				"id": "191136"
+			}
+		],
+		[
+			{
+				"attribute_id": "9637",
+				"attribute_name": "④",
+				"attribute_value": "裤 S",
+				"goods_id": "26873",
+				"id": "191129"
+			},
+			{
+				"attribute_id": "9638",
+				"attribute_name": "④",
+				"attribute_value": "裤 M",
+				"goods_id": "26873",
+				"id": "191130"
+			}
+		],
+		[
+			{
+				"attribute_id": "10042",
+				"attribute_name": "活动",
+				"attribute_value": "送米粒优团专属T恤一件，尺码随机",
+				"goods_id": "26873",
+				"id": "191134"
+			}
+		]
+	],
+	"commentsNum": 0,
+	"data": {
+		"cat_id": "70",
+		"content": "",
+		"end_time": "1556553600",
+		"freight_id": "1092",
+		"id": "26873",
+		"imgs": [
+			"http://milicdn.sclonsee.com/goods/images/2019/03/5c9b3d7e412b4.jpg",
+			"http://milicdn.sclonsee.com/goods/images/2019/03/5c9b3d7e71452.jpg",
+			"http://milicdn.sclonsee.com/goods/images/2019/03/5c9b3d7ea0f55.jpg",
+			"http://milicdn.sclonsee.com/goods/images/2019/03/5c9b3d7ecb433.jpg",
+			"http://milicdn.sclonsee.com/goods/images/2019/03/5c9b3d7f05b1a.jpg"
+		],
+		"is_international": 0,
+		"is_long": "0",
+		"is_remind": 0,
+		"is_xg": "0",
+		"is_zu": "0",
+		"market_price": "399.00",
+		"name": "高端波点连衣裙",
+		"remain": 3329,
+		"shop_price": "0.01",
+		"show_sale_num": "6671",
+		"show_stock_num": "10000",
+		"sort": "45",
+		"start_time": "1553869200",
+		"stock": "9600",
+		"supplier_id": "256",
+		"thumb": "http://milicdn.sclonsee.com/goods/thumb/2019/03/5c9b933d846c1.png",
+		"topic_id": "",
+		"unit": "件",
+		"video": "",
+		"zu_num": "2"
+	},
+	"material": [],
+	"number": 0,
+	"other": {
+		"img": "http://milicdn.sclonsee.com/supplier/img/5c9b441191ace.jpg",
+		"quickRefund": "快速申报财务，给您最好的售后体验哈哈哈哈",
+		"worryFreeRefund": "7天内售后无忧，如有不满意随时可以退货换货哈哈哈哈"
+	},
+	"templateImg": "http://milicdn.sclonsee.com/share/activity/templateImg.png"
+}
